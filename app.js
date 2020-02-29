@@ -12,9 +12,9 @@ for(var i =0; i<button.length; i++){
     buttonArr[i].addEventListener('click', function(e){
         console.log([e.target.innerHTML]);
         out.push(e.target.innerHTML);
-        output.innerHTML = out.join("");
-        console.log(out);
+       
+        output.innerHTML = out.join("").slice(0,6);
+        console.log(out.slice(0,5));
+        
     });
-    console.log(buttonArr[i].innerHTML);
-    
 };
