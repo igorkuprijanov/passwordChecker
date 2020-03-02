@@ -1,9 +1,44 @@
 #title{
     padding: 25px;
+    color: white;
+    text-shadow:
+   -2px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 #output{
     margin: 10px;
 }
 .button{
     margin: 10px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.button{
+            padding: 6px 0px; 
+            border-radius: 100px;   
+}
+
+#workspace{
+    position: absolute;
+    background: white;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    opacity: 100%%;
+    top: 0px;
+    left: 0;
+}
+#quote{
+    width: 35%;
+    position: absolute;
+    left: 35%;
+    top: 200px;
+    
 }
